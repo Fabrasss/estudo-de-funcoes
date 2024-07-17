@@ -5,3 +5,9 @@ function myFunction(x, y) {
     return x * y
 }
 console.log(myFunction(2))
+
+function myFunction2(x, y = 20) {
+    return x + y
+}
+
+console.log(myFunction2(10))
